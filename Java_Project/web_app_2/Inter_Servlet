@@ -1,0 +1,6 @@
+Intersevlet Communication: 
+
+html--->firstServlet--->Secondservlet--->html
+
+
+to call html to one servlet to another and another servlet  to diffrent html

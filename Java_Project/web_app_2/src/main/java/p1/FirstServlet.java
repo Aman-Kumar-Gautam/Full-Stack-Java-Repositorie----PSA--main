@@ -16,7 +16,7 @@ public class FirstServlet extends HttpServlet {
     	super();
     }
 
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) 
 	{
 
 		String name = request.getParameter("name");
@@ -26,7 +26,7 @@ public class FirstServlet extends HttpServlet {
 	}
 
 	
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)  
 	{
 		
 		String name = request.getParameter("name");
